@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-  max-width: 65px;
+  max-width: 100px;
   border-width: 3px;
   border-color: #F05F44; 
 }
@@ -21,8 +21,8 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
-  background-size: cover;
+  background-image: url("ryan-loughlin-449033-unsplash.jpg");
+  background-size: contain;
   height: 100%;
 }
 
@@ -51,7 +51,7 @@ header.startup h1 {
   border-color: #F05F44; }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
+  background-color: cyan;
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
